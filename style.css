@@ -14,12 +14,12 @@
             --text-primary: #F1F5F9;
             --text-secondary: #CBD5E1;
             --text-muted: #94A3B8;
-            --accent: #2C7BE5;
+            --accent: #000dff;
             --accent-hover: #1E66CC;
             --border-light: #1E2A3E;
             --header-bg: rgba(10, 15, 26, 0.92);
             --footer-bg: #070C15;
-            --shadow-sm: 0 8px 20px rgba(0, 0, 0, 0.3);
+            --shadow-sm: 0 8px 20px rgb(0, 0, 0);            
             --badge-bg: #1E2A44;
         }
 
@@ -29,15 +29,15 @@
             --bg-secondary: #F8F9FC;
             --bg-card: #FFFFFF;
             --bg-elevated: #F1F3F7;
-            --text-primary: #0d00c2;
+            --text-primary: #111111;
             --text-secondary: #2C2C2C;
             --text-muted: #4B5563;
-            --accent: #0018b4;
-            --accent-hover: #0023b0;
+            --accent: #ffffff;
+            --accent-hover: #333333;
             --border-light: #E5E7EB;
             --header-bg: rgba(255, 255, 255, 0.96);
             --footer-bg: #F3F4F6;
-            --shadow-sm: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.02);
+            --shadow-sm: 0 10px 25px -5px rgb(0, 81, 255), 0 8px 10px -6px rgb(5, 8, 143);
             --badge-bg: #E9ECF2;
         }
 
@@ -72,7 +72,7 @@
             backdrop-filter: blur(12px);
             border-bottom: 1px solid var(--border-light);
             z-index: 100;
-            padding: 1rem 0;
+            padding: 0rem 0;
         }
 
         .nav-bar {
@@ -95,7 +95,7 @@
 
         body.white-black .logo h1 {
             background: none;
-            color: #000;
+            color: #001aff;
         }
 
         .theme-switch {
@@ -123,7 +123,7 @@
         .theme-btn.active {
             background: var(--accent);
             color: white;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 8px rgb(4, 0, 255);
         }
 
         body.white-black .theme-btn.active {
@@ -255,7 +255,7 @@
 
         .card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 20px 30px -12px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 20px 30px -12px rgb(4, 0, 255);
         }
 
         .card-icon {
@@ -329,7 +329,7 @@
 
         footer {
             text-align: center;
-            padding: 2rem 0;
+            padding: 1rem 0;
             background: var(--footer-bg);
             color: var(--text-muted);
             font-size: 0.85rem;
@@ -372,7 +372,7 @@
             background: transparent;
             border: 1px solid var(--accent);
             color: var(--accent);
-            border-radius: 40px;
+            border-radius: 80px;
             padding: 0.6rem 1.4rem;
             font-weight: 600;
             transition: 0.2s;
@@ -380,5 +380,5 @@
 
         .btn-outline:hover {
             background: var(--accent);
-            color: white;
+            color: rgb(139, 139, 139);
         }
